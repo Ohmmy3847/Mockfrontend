@@ -1,0 +1,84 @@
+.maintable table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+  margin-left: 20px;
+  margin-top: 270px;
+}
+
+/* .maintable table tr{
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+} */
+
+.maintable table th {
+  border: 1px solid #dddddd;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  text-align: left;
+  padding: 5px;
+}
+
+.maintable table td p {
+  font-size: 15px;
+  padding: 5px;
+}
+
+/* .maintable table tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.maintable table tr:nth-child(odd) {
+  background-color: #fff;
+} */
+
+.maintable table th {
+  background-color: #ff9999;
+}
+
+.maintable table .FirstBar {
+  background: #ffcdcd;
+}
+
+.maintable table td {
+  background: #ffe3e3;
+}
+
+.box_value {
+  position: fixed;
+  top: 20%;
+  margin-left: 56%;
+  margin-top: 30px;
+  width: 40%;
+  height: 75%;
+
+  background: #ffa07a;
+  color: #111;
+  overflow: hidden;
+  overflow-y: auto;
+  border-width: 2px;
+  border: solid #000;
+  border-radius: 4px;
+}
+
+.box_value::-webkit-scrollbar {
+  display: none;
+}
+
+.box_value h3 {
+  position: absolute;
+  top: 100px;
+  left: 50px;
+  text-align: left;
+}
+
+.box_value img {
+  width: 500px;
+  height: 300px;
+  border-radius: 10px;
+}
+.box_value video{
+  border-radius: 4px;
+  border: solid #000;
+
+}

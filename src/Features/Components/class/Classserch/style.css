@@ -1,0 +1,132 @@
+.ALL__SEA {
+  position: relative;
+  top: 120px;
+  background: transparent;
+  color: #fff;
+  display: flex;
+  align-items: stretch;
+  gap: 1.5rem;
+  padding: 0 1rem;
+}
+
+.ALL__SEA h1 {
+  color: #111;
+  font-size: 80px;
+}
+
+.ALL__SEA .searchC select {
+  position: relative;
+  background: #fff;
+  border: 0;
+  border-radius: 50px;
+  font-size: 12px;
+  padding: 15px;
+  top: 90px;
+  height: 45px;
+  width: 117px;
+}
+
+.ALL__SEA .searchG select {
+  position: relative;
+  background: #fff;
+  border: 0;
+  border-radius: 50px;
+  font-size: 12px;
+  padding: 15px;
+  top: 90px;
+  height: 45px;
+  width: 117px;
+}
+
+.ALL__SEA .searchL select {
+  position: relative;
+  background: #fff;
+  border: 0;
+  border-radius: 50px;
+  font-size: 12px;
+  padding: 15px;
+  top: 90px;
+  height: 45px;
+  width: 117px;
+}
+.at_mainclass {
+  top: 90px;
+}
+.blockofoverall {
+  float: left;
+  position: relative;
+  width: 50%;
+  height: 50%;
+  margin-top: 2%;
+  z-index: 10;
+}
+.blockofStudentcount {
+  float: right;
+  position: relative;
+  width: 50%;
+  height: 50%;
+  margin-top: 2%;
+  z-index: 10;
+}
+.blockofModQuality {
+  margin: auto;
+  position: relative;
+  width: 80%;
+  height: 50%;
+  margin-top: 2%;
+  z-index: 10;
+}
+.samelinebox {
+  width: 100%;
+  height: 300px;
+  background: #ffa07a;
+}
+.samelinehead {
+  word-break: break-all;
+  display: inline-block;
+  margin-right: 50px;
+  font-weight: bold;
+  width: 20%;
+  height: 80%;
+
+  border-radius: 2px;
+}
+.sameline {
+  word-break: break-all;
+
+  font-weight: bold;
+  width: 120%;
+  height: 80%;
+  background: #ffa02f;
+  overflow: hidden;
+  overflow-y: auto;
+  border-radius: 2px;
+}
+.colorS {
+  width: 20px;
+  height: 20px;
+  border: 1px solid;
+  border-radius: 5px;
+  margin-top: 2px;
+  display: inline-block;
+}
+
+.sameline::-webkit-scrollbar {
+  display: none;
+}
+.fixedhead {
+  width: 20%;
+  height: 80%;
+  position: fixed;
+}
+.graphwindow {
+  position: fixed;
+  margin-top: 10%;
+  width: 80%;
+  height: 80%;
+  overflow: hidden;
+  overflow-y: auto;
+}
+.graphwindow::-webkit-scrollbar {
+  display: none;
+}

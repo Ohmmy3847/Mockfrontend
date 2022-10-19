@@ -1,0 +1,134 @@
+body{
+    margin: 0;
+}
+
+.container{
+    margin: 1rem;
+    text-align: center;
+}
+
+.nav{
+    position: fixed;
+    width: 100vw;
+    height: 20%;
+    top: 0;
+    background: transparent;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 2rem;
+    padding: 0 1rem;
+    box-shadow: 0 1rem 2rem rgba(0,0,0,0.2);
+}
+
+.Site-title{
+    position: absolute;
+    font-size: 2.3rem;
+    margin-top:0.15rem;
+    transition: 0.5s;
+    margin-left: 2%;
+}
+
+.Site-title img{
+    height: 100px;
+    width: 120px;
+    transition: 0.5s;
+}
+
+.Site-title p{
+    font-weight: 500;
+    color: #111;
+    transition: 0.5s;
+}
+
+.Site-title:hover {
+    background: transparent;
+}
+
+.nav ul{
+    font-weight: bold;
+    color: #111;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    font-size: 23px;
+    margin-top: 55px;
+    margin-left: 90%;
+    transition: 0.5s;
+}
+
+.nav ul .AAANNA{
+    font-size: 23px;
+    background: transparent;
+    border: transparent;
+}
+
+.nav a {
+    color: inherit;
+    text-decoration: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: .25rem;
+    box-sizing: border-box;
+}
+
+.nav li:hover{
+    color: #fff;
+    background: #777;
+}
+
+.nav li.active{
+    background: #555;
+}
+
+.nav.active{
+    position: fixed;
+    width: 100vw;
+    height: 5rem;
+    top: 0;
+    background: linear-gradient(45deg,#FEC8D8,#FCF695,#FFDFD3);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 2rem;
+    padding: 0 1rem;
+    box-shadow: 0 1rem 2rem rgba(0,0,0,0.2);
+}
+
+.nav.active .Site-title p{
+    font-size: 2rem;
+    margin-top: 20px;
+    transition: 0.5s;
+    margin-left: 70px;
+}
+
+nav.active ul{
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    font-size: 16px;
+    gap: 1rem;
+    margin-top: 28px;
+    margin-left: 83%;
+    transition: 0.5s;
+}
+
+.nav.active .Site-title img{
+    position: absolute;
+    margin-top: -10px;
+    height: 50px;
+    width: 60px;
+    transition: 0.5s;
+}
+
+.nav.active .Site-title:hover{
+    background: transparent;
+}
